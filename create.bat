@@ -1,10 +1,9 @@
 @echo off 
 
-d:
+Rem This command changes the path to the same, where the batch file resides.
+cd /d %~dp0
 
-cd /MyProjects/ProjectAutomation
-
-set project = %1
+set folder = %1
 
 if "%1"=="" (
 echo Project Name is NOT defined
