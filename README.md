@@ -26,7 +26,8 @@ pip install PyGithub
 Add the ProjectAutomation folder to PATH. - https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/
 
 ### Usage:
-```
+
 Open terminal and type in:
+```
 create <Project_Name>
 ```
