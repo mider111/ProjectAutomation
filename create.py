@@ -15,7 +15,14 @@ os.chdir(project_dir)
 g = Github(github_token)
 user = g.get_user()
 username = user.login
-repo = user.create_repo(folder)
+check_repo = []
+for r in user.get_repos():
+    check_repo.append(str(r.name))
+if folder not in check_repo:
+    repo = user.create_repo(folder)
+else:
+    print("Repo already exists. Try again!")
+    sys.exit()
 
 # Creates the new project folder in the project dir
 check = not os.path.exists(folder)
@@ -27,6 +34,7 @@ if check:
         print(error)
 else:
     print("A folder with that name already exists!")
+    sys.exit()
 
 # List of commands to be executed
 commands = [
