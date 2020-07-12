@@ -7,7 +7,7 @@ repo in your GitHub account and pushes it.
 This Batchfile script is for Windows ONLY!
 
 ### Requirements:
-```
+
 Python3
 
 Set up environmental variables:
@@ -15,15 +15,16 @@ Set up environmental variables:
 [https://www.computerhope.com/issues/ch000549.htm]
 2. GH - Your GitHub personal access token -
 [https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token]
-```
+
 
 ### Set-up:
 ```
 git clone https://github.com/mider111/ProjectAutomation
 pip install PyGithub
-
-Add the ProjectAutomation folder to PATH.
 ```
+
+Add the ProjectAutomation folder to PATH. - [https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/]
+
 ### Usage:
 ```
 Open terminal and type in:
