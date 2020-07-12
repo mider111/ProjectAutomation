@@ -1,6 +1,6 @@
 @echo off 
 
-Rem This command changes the path to the same, where the batch file resides.
+Rem This command changes the path to where the batch file is located
 cd /d %~dp0
 
 set folder = %1
