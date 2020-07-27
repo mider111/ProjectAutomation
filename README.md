@@ -3,6 +3,7 @@
 This script creates a new project folder,
 creates README.md, initializes the project, creates a new
 repo in your GitHub account and pushes it.
+Opens VS Code.
 
 This Batchfile script is for Windows ONLY!
 
