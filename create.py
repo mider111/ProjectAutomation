@@ -43,11 +43,11 @@ commands = [
     'git add README.md',
     'git commit -m "first commit"',
     f'git remote add origin https://github.com/{username}/{folder}.git',
-    'git push -u origin master'
+    'git push -u origin master',
+    'code .'
 ]
 
 for c in commands:
     os.system(c)
 
 print(f'Folder {folder} was created in {project_dir}.')
-
