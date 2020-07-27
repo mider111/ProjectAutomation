@@ -7,7 +7,7 @@ set folder = %1
 
 if "%1"=="" (
 echo Project Name is NOT defined
-)else python3 create.py %1
+)else python create.py %1
 
 
 
