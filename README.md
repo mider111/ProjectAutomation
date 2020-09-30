@@ -20,7 +20,7 @@ https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-a
 
 ### Set-up:
 ```
-git clone https://github.com/mider111/ProjectAutomation
+git clone https://github.com/vikivanov/ProjectAutomation
 pip install PyGithub
 ```
 
